@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Rest/Work Ratio Timer</title>
+	<script type="text/javascript" src="./lib/jquery-3.4.1.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>Rest/Work Ratio Timer</h1>
+    <p>Work:</p><p id="clock-work">00:00</p>
+     <p>Rest:</p><p id="clock-rest">00:00</p>
+    <input type="number" id="work">Work</input>
+    <input type="number" id="rest">Rest</input>
+    <div class="clock">
+    	<button id="start-timer" class="start">Start Timer</button>
+    	<button id="rest-timer" class="end">Rest Timer</button>
+    	<button id="cancel-timer" class="cancel">Cancel Timer</button>
+    	<p id="timer"></p>
+    </div>
+  </body>
+</html>
